@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
+             version="2.2">
+    <persistence-unit name="sds_data_source">
+
+        <jta-data-source>java:jboss/datasources/Postgres</jta-data-source>
+
+        <class>com.example.demo2Hibernate.entity.Clients</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/postgres"/>
+            <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
+            <property name="hibernate.connection.username" value="denis"/>
+            <property name="hibernate.connection.password" value="als0z28Den!"/>
+            <property name="hibernate.show_sql" value="true"/>
+
+            <property name="hibernate.proc.param_null_passing" value="true"/>
+            <property name="wildfly.jpa.default-unit" value="true"/>
+
+        </properties>
+    </persistence-unit>
+</persistence>
