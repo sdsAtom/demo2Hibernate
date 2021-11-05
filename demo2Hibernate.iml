@@ -28,7 +28,7 @@
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
           <factory-entry name="default" value="2b2a2e33-6990-40d8-a919-ab94589b589e" />
-          <factory-entry name="sds_data_source" />
+          <factory-entry name="sds_data_source" value="89375a0c-c8e2-4e7a-962d-e5fd2127963e" />
         </datasource-mapping>
         <naming-strategy-map />
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />

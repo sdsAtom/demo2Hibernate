@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="myDB" uuid="2b2a2e33-6990-40d8-a919-ab94589b589e">
+    <data-source source="LOCAL" name="sds_data_source/Hibernate" uuid="89375a0c-c8e2-4e7a-962d-e5fd2127963e">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
-      <configured-by-url>true</configured-by-url>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+/Users/denis/IdeaProjects/demo2Hibernate/src/main/resources/META-INF/persistence.xml</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5432/mydb</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

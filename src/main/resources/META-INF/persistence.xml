@@ -5,19 +5,9 @@
              version="2.2">
     <persistence-unit name="sds_data_source">
 
-        <jta-data-source>java:jboss/datasources/Postgres</jta-data-source>
+        <jta-data-source>java:/PostgresDS</jta-data-source>
 
-        <class>com.example.demo2Hibernate.entity.Clients</class>
-        <properties>
-            <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/postgres"/>
-            <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
-            <property name="hibernate.connection.username" value="denis"/>
-            <property name="hibernate.connection.password" value="als0z28Den!"/>
-            <property name="hibernate.show_sql" value="true"/>
+        <class>com.example.demo2Hibernate.entity.Operation</class>
 
-            <property name="hibernate.proc.param_null_passing" value="true"/>
-            <property name="wildfly.jpa.default-unit" value="true"/>
-
-        </properties>
     </persistence-unit>
 </persistence>
