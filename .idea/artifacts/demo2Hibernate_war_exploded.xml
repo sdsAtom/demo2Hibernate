@@ -6,7 +6,6 @@
         <exploded>true</exploded>
         <module>demo2Hibernate</module>
         <packaging>war</packaging>
-        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="root">
